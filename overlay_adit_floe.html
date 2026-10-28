@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>adit_floe TikTok LIVE Overlay</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent}
+.stage{position:relative;width:100vw;height:100vh;background:transparent}
+.frame{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+/* Tutup teks ticker statis pada gambar, lalu tampilkan teks berjalan baru */
+.ticker-window{position:absolute;left:10.5%;top:77.4%;width:79%;height:4.1%;overflow:hidden;display:flex;align-items:center;background:rgba(3,5,17,.98)}
+.ticker{white-space:nowrap;display:inline-block;padding-left:100%;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:clamp(12px,1.35vw,25px);color:#fff;text-shadow:0 0 6px #00eaff,0 0 10px #ff168d;animation:scroll 22s linear infinite}
+.ticker span{color:#00f0ff}.ticker b{color:#ff278e}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+</style></head><body><div class="stage">
+<img class="frame" src="overlay_adit_floe.png" alt="Overlay adit_floe">
+<div class="ticker-window"><div class="ticker">🎵 <b>adit_floe</b> • Jangan lupa Follow ya! • Terima kasih sudah mampir • <span>Request lagu: !play judul lagu</span> • 🎧</div></div>
+</div></body></html>
